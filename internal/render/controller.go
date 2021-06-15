@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/strongdm/comply/internal/config"
-	"github.com/strongdm/comply/internal/model"
+	"github.com/GenicsSoftware/comply/internal/config"
+	"github.com/GenicsSoftware/comply/internal/model"
 )
 
 type project struct {

@@ -21,10 +21,10 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/pkg/errors"
-	"github.com/strongdm/comply/internal/config"
-	"github.com/strongdm/comply/internal/gitlab"
-	"github.com/strongdm/comply/internal/jira"
-	"github.com/strongdm/comply/internal/plugin/github"
+	"github.com/GenicsSoftware/comply/internal/config"
+	"github.com/GenicsSoftware/comply/internal/gitlab"
+	"github.com/GenicsSoftware/comply/internal/jira"
+	"github.com/GenicsSoftware/comply/internal/plugin/github"
 	"github.com/urfave/cli"
 )
 

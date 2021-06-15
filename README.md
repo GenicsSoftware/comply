@@ -1,4 +1,4 @@
-![Comply](https://github.com/strongdm/comply/blob/master/logo.png)
+![Comply](https://github.com/GenicsSoftware/comply/blob/master/logo.png)
 
 Comply is a SOC2-focused compliance automation tool:
 
@@ -14,11 +14,11 @@ macOS:
 
 Linux:
 
-[Download latest release](https://github.com/strongdm/comply/releases)
+[Download latest release](https://github.com/GenicsSoftware/comply/releases)
 
 Go users:
 
-`go get github.com/strongdm/comply`
+`go get github.com/GenicsSoftware/comply`
 
 # Get Started
 
@@ -126,8 +126,8 @@ Please make sure that the default *Create Screen* has all of those fields enable
 > Inspiration: http://code.openark.org/blog/development/forking-golang-repositories-on-github-and-managing-the-import-path
 
 ```
-$ go get github.com/strongdm/comply
-$ cd $GOPATH/src/github.com/strongdm/comply ; go get ./...
+$ go get github.com/GenicsSoftware/comply
+$ cd $GOPATH/src/github.com/GenicsSoftware/comply ; go get ./...
 $ make
 $ cd example
 $ mv comply.yml.example comply.yml
@@ -135,5 +135,5 @@ $ ../comply -h
 $ ../comply sync
 $ ../comply serve
 #
-$ make # recompile as needed with in $GOPATH/src/github.com/strongdm/comply
+$ make # recompile as needed with in $GOPATH/src/github.com/GenicsSoftware/comply
 ```

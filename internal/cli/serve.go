@@ -2,7 +2,7 @@ package cli
 
 import (
 	"github.com/pkg/errors"
-	"github.com/strongdm/comply/internal/render"
+	"github.com/GenicsSoftware/comply/internal/render"
 	"github.com/urfave/cli"
 )
 

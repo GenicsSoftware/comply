@@ -1,8 +1,8 @@
 package cli
 
 import (
-	"github.com/strongdm/comply/internal/config"
-	"github.com/strongdm/comply/internal/model"
+	"github.com/GenicsSoftware/comply/internal/config"
+	"github.com/GenicsSoftware/comply/internal/model"
 	"github.com/urfave/cli"
 )
 
